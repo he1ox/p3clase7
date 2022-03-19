@@ -17,5 +17,6 @@ public final class App {
         EjColecciones col = new EjColecciones();
         col.EjListas();
         col.EjArrayList();
+        col.EjSet();
     }
 }
