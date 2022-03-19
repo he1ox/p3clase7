@@ -16,5 +16,6 @@ public final class App {
     public static void main(String[] args) {
         EjColecciones col = new EjColecciones();
         col.EjListas();
+        col.EjArrayList();
     }
 }
