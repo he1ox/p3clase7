@@ -25,8 +25,9 @@ public final class App {
         // ClsEjemplo ej = new ClsEjemplo();
         // ej.ejemplo1();
 
-        ClsLista list = new ClsLista();
-
+        ClsLista list = new ClsLista().crearLista();
+        
+        int pausa = 0;
         
     }
 }
