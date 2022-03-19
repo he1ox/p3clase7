@@ -2,6 +2,7 @@ package com.jlopez;
 
 import com.jlopez.EjColecciones.EjColecciones;
 import com.jlopez.PkgEjemplo.ClsEjemplo;
+import com.jlopez.PkgListaPuntos.ClsLista;
 
 /**
  * Hello world!
@@ -12,6 +13,7 @@ public final class App {
 
     /**
      * Says hello to the world.
+     * 
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
@@ -20,8 +22,11 @@ public final class App {
         // col.EjArrayList();
         // col.EjSet();
 
-        ClsEjemplo ej = new ClsEjemplo();
+        // ClsEjemplo ej = new ClsEjemplo();
+        // ej.ejemplo1();
 
-        ej.ejemplo1();
+        ClsLista list = new ClsLista();
+
+        
     }
 }

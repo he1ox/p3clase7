@@ -7,33 +7,31 @@ import java.util.Iterator;
 import java.util.List;
 
 public class ClsEjemplo {
-    public void ejemplo1(){
-        String[] arreglo = {"Zacarias","Maria","Betty","Fabrizio"};
+    public void ejemplo1() {
+        String[] arreglo = { "Zacarias", "Maria", "Betty", "Fabrizio" };
 
         List<String> miLista = Arrays.asList(arreglo);
         ImprimirTodo(miLista);
 
-        //ImprimirTodo mi lista
+        // ImprimirTodo mi lista
 
         Collections.sort(miLista);
-        System.out.println("Ordenado : " +miLista);
+        System.out.println("Ordenado : " + miLista);
         int donde = Collections.binarySearch(miLista, "Fabrizio");
 
-        System.out.println("Fabrizio esta en "+donde);
+        System.out.println("Fabrizio esta en " + donde);
 
         Collections.shuffle(miLista);
-        System.out.println("Desordenados : "+miLista);
+        System.out.println("Desordenados : " + miLista);
 
         System.out.println("Fin");
     }
 
-
-
-    public void ImprimirTodo(Collection coll){
+    public void ImprimirTodo(Collection coll) {
         Iterator iter = coll.iterator();
 
         while (iter.hasNext()) {
-            System.out.println("Elemento="+iter.next());
+            System.out.println("Elemento=" + iter.next());
         }
     }
 }
